@@ -3311,7 +3311,7 @@ MM.Backend.WebDAV.load = function(url) {
 MM.Backend.WebDAV._request = function(method, url, data) {
 	var xhr = new XMLHttpRequest();
 	xhr.open(method, url, true);
-	xhr.withCredentials = true;
+	// xhr.withCredentials = true;
 
 	var promise = new Promise();
 	
